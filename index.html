@@ -1,0 +1,345 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Case</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Infant&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  </head>
+  <body>
+    <!--------->
+    <div class="content">
+    <header id="header" class="header container">
+          <div class="header__logo">
+            <a href="#">
+            <img src="img/logo.png" alt="">
+            </a>
+          </div>
+          <div class="menu" id="menu">
+            <div class="menu__icon" id="menu__icon">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <ul class="menu__links">
+              <div class="menu__links-container">
+                <li><a class="menu__links-item" href="/">Возможности умного дома</a></li>
+                <li><a class="menu__links-item" href="/">Выполненные проекты</a></li>
+                <li><a class="menu__links-item" href="/">Управление</a></li>
+                <li><a class="menu__links-item" href="/">Экономия</a></li>
+                <li><a class="menu__links-item" href="/">Контакты</a></li>
+              </div>
+            </ul>
+          </div>
+          <div class="header__right">
+            <div class="call">
+              <p><a href="tel:89160526060">+7 (916) 052-60-60</a></p>
+              <button id="call__btn" class="btn">Заказать звонок</button>
+            </div>
+          </div>
+    </header>
+    <section class="banner block-wrapper">
+      <div class="fullscreen-bg">
+        <div class="fullscreen-bg__overlay">
+          </div>
+        <div class="fullscreen-bg__video">
+          <video autoplay muted loop playsunline>
+          <source src="img/video-bg1080.mp4" type="video/mp4">
+            </video>
+        </div>
+      </div>
+      <div class="banner__description">
+        <div class="container">
+          <h1>СИСТЕМА УМНЫЙ дОМ</h1>
+          <p class="subtitle">проектирование, установка, монтаж, автоматизация домов и квартир на Кипре</p>
+        </div>
+        <div class="banner__bottom">
+          <p class="text-typing">Реализуем инновационные решения "под ключ"</p>
+        </div>
+      </div>
+    </section>
+    </div>
+<!----form------>
+    <div class="overlay js-overlay js-popup-close">
+      <div class="overlay__bg overlay__bg_left">
+      </div>
+      <div class="overlay__bg overlay__bg_right">
+      </div>
+    </div>
+
+    <div class="form-wrapper">
+                  
+    <form action="mail.php" class="form" id="form" onsubmit="return validate();" method="POST">
+      <span id="closeform" class="form__close"></span>
+      <h3 class="form__title">Оставьте Заявку</h3>
+      <p class="form__descr">и наши специалисты свяжутся с Вами в ближайшее время</p>
+      <div class="form__row">
+        <div class="form__input  form__input--name">
+          <input type="text" name="name" placeholder="Представьтесь пожалуйста" id="name">
+          <span style="color:red" id="namef">
+        </div>
+
+        <div class="form__input  form__input--tel">
+          <input type="tel" id="phone" name="phone" placeholder="Телефон">
+          <span style="color:red" id="telf">
+        </div>
+      </div>
+      <input type="submit" class="btn  btn--form" value="Отправить">
+    </form>  
+  </div>
+     <!----------->
+
+  <section class="cost">
+    <div class="cost__container">
+      <h2 class="cost__title">КАК МЫ НАУЧИМ ВАШ САЙТ ПРОДАВАТЬ ЛУЧШЕ?</h2>
+      <p class="cost__subtitle">В стоимость работ по улучшению юзабилити сайта входит:</p>
+
+      <div class="tabcontent">
+        <div class="buttons__wrap">
+          <button class="tablinks active">
+            <div class="tablinks__number"><span>1</span></div>
+            <div class="tablinks__text"><span>Сбор и анализ данных</span></div>
+          </button>
+          <button class="tablinks">
+            <div class="tablinks__number"><span>2</span></div>
+            <div class="tablinks__text"><span>Выявление проблем и работа над созданием рекомендаций</span></div>
+          </button>
+          <button class="tablinks">
+            <div class="tablinks__number"><span>3</span></div>
+            <div class="tablinks__text"><span>Анализ и согласование рекомендация</span></div>
+          </button>
+        </div>
+            <div class="tab show">
+              <div class="tab__content">
+                <img class="tab__img" src="img/step1.jpg" alt="">
+                <ul>
+                  <li>Анализ информации о компании, выявление преимуществ, специфики компании; базовый (обзорный) анализ сайта с целью выявления наличия проблем и особенностей функционала.</li>
+                  <li>Анализ технических особенностей сайта с точки зрения возможности внесения правок и исправления проблем на сайте.</li>
+                  <li>Анализ сайтов конкурентов: выявление сильных и слабых сторон сайта Клиента по сравнению с его конкурентами.</li>
+                  <li>Анализ и сегментирование целевой аудитории сайта (необходимо для создания адаптированного для нее функционала и вида сайта).</li>
+                  <li>Разработка портретов пользователей, создание персонажей.</li>
+                  <li>Разработка пользовательских сценариев для персонажей.</li>
+                </ul>
+              </div>
+            </div>
+            <div class="tab">
+              <div class="tab__content">
+                <img class="tab__img" src="img/step2.jpg" alt="">
+                <ul>
+                  <li>Анализ поведенческих показателей статистики сайта с целью выявления его наиболее проблемных мест (веб-аналитика).</li>
+                  <li>Проверка сайта на соответствие ожиданиям пользователей и позиционированию компании (образу бренда).</li>
+                  <li>Прохождение пользовательских сценариев и фиксация проблем.</li>
+                  <li>Проверка кроссбраузерности и кроссплатформенности сайта.</li>
+                  <li>Создание гипотез для проведения юзабилити-тестирования.</li>
+                  <li>Проведение юзабилити-тестирования.</li>
+                  <li>Оценка и анализ результатов юзабилити-тестирования и подготовка отчета.</li>
+                  <li>Выявление эффективности сайта методом Eye-tracking.
+                  <li>Оценка результатов, полученных методом Eye-tracking, и подготовка отчета.</li>
+                  <li>Проверка корректной работы функционала сайта, оценка его целесообразности на сайте. Выявление необходимости в добавлении функционала на сайт.</li>
+                  <li>Экспертный анализ юзабилити сайта. Подготовка отчета по результатам экспертной оценки.</li>
+                  <li>Обобщение результатов анализа сайта. Составление общих рекомендаций по улучшению юзабилити на сайте (и решению выявленных проблем).</li>
+                  <li>Создание прототипов/макетов измененных (в соответствии с рекомендациями) страниц.</li>
+                </ul>
+              </div>
+            </div>
+            <div class="tab">
+              <div class="tab__content">
+                <img class="tab__img" src="img/step3.jpg" alt="">
+                <ul>
+                  <li>Настройка цели «Вовлеченность посетителей Сайта».</li>
+                  <li>Настройка цели «Конверсия посетителей в потенциальных покупателей».</li>
+                  <li>Согласование рекомендаций и прототипов (макетов) с клиентом.</li>
+                  <li>Одобрение правок и утверждение макетов для внесения правок.</li>
+                </ul>
+              </div>
+            </div>
+    
+      </div>
+    </div>
+  </section>
+  <!----statistics---->
+  <section class="statistics"> 
+    <div class="statistics__wrapper">
+      <header>
+        <h2>Давайте обсудим ваш проект</h2>
+        <p>Свяжитесь с нами для обсуждения вашего проекта</p>
+      </header>
+      <button id="btn--stat" class="btn  btn--stat statistics__btn">Связаться с нами</button>
+    </div>
+    <div class="statistics-content" id="statistics_content">
+      <div class="content__progress">
+        <div class="myProgress" id="myProgress1">
+          <div class="myBar" id="myBar1">
+            <div class="myBar__percent1" id="myBar__percent1">0%</div>
+          </div>
+          <div class="myBar__name1"><span>Графический дизайн</span></div>
+        </div>
+        <div class="myProgress" id="myProgress2">
+          <div class="myBar" id="myBar2">
+            <div class="myBar__percent2" id="myBar__percent2">0%</div>
+          </div>
+          <div class="myBar__name2"><span>Разработка сайтов</span></div>
+        </div>
+        <div class="myProgress" id="myProgress3">
+          <div class="myBar" id="myBar3">
+            <div class="myBar__percent3" id="myBar__percent3">0%</div>
+          </div>
+          <div class="myBar__name3"><span>Web разработка</span></div>
+        </div>
+        <div class="myProgress" id="myProgress4">
+          <div class="myBar" id="myBar4">
+            <div class="myBar__percent4" id="myBar__percent4">0%</div>
+          </div>
+          <div class="myBar__name4"><span>Web дизайн</span></div>
+        </div>
+        <div class="myProgress" id="myProgress5">
+          <div class="myBar" id="myBar5">
+            <div class="myBar__percent5" id="myBar__percent5">0%</div>
+          </div>
+          <div class="myBar__name5"><span>Графический дизайн</span></div>
+        </div>
+      </div>
+      <div class="content__img">
+        <img src="img/image-1-1.jpg" alt="">
+        <p></p>
+      </div>
+    </div>
+  </section>
+
+  
+  <!----form2---->
+    <div class="overlay2">
+      <div class="overlay__bg2 overlay__bg_left2">
+      </div>
+    </div>
+
+    <div class="form-wrapper2">
+                  
+    <form action="#" method="post" class="form2" id="form2">
+      <span id="closeform2" class="form__close2"></span>
+      <h3 class="form__title2">Оставьте Заявку</h3>
+      <p class="form__descr2">и наши специалисты свяжутся с Вами в ближайшее время</p>
+      <div class="form__row2">
+        <div class="form__input2  form__input--name2">
+          <input type="text" name="name2" placeholder="Представьтесь пожалуйста" id="name2">
+        </div>
+
+        <div class="form__input2  form__input--tel2">
+          <input type="tel" id="tel2" name="tel2" placeholder="Телефон">
+        </div>
+
+        <div class="form__textarea2">
+          <textarea name="message" id="message" rows="6" placeholder="Ваш комментарий к заявке"></textarea>
+        </div>
+
+      </div>
+      <button type="submit2" class="btn  btn--form2">Отправить</button>
+    </form>  
+  </div>
+  <!----->
+  <section class="reputation">
+    <div class="reputation__wrapper">
+      <header>
+        <h2>РЕПУТАЦИОННЫЕ ГАРАНТИИ ДОСТИЖЕНИЯ ВЫСОКОГО РЕЗУЛЬТАТА</h2>
+        <p></p>
+      </header>
+    
+      <div class="row">
+        <div class="column">
+          <img src="img/1.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+          <img src="img/2.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+          <img src="img/3.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+        </div>
+         <div class="column">
+          <img src="img/4.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+        </div>
+         <div class="column">
+          <img src="img/5.jpg" style="width:100%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+        </div>
+         <div class="column">
+          <img src="img/6.jpg" style="width:100%" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+          <img src="img/7.jpg" style="width:100%" onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+          <img src="img/8.jpg" style="width:100%" onclick="openModal();currentSlide(8)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+          <img src="img/9.jpg" style="width:100%" onclick="openModal();currentSlide(9)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+          <img src="img/10.jpg" style="width:100%" onclick="openModal();currentSlide(10)" class="hover-shadow cursor">
+        </div>
+      </div>
+      <button class="show_more  btn" onclick="showProduct()">Все отзывы</button>
+
+      <div id="myModal" class="modal">
+       
+        <div class="modal-content">
+           <span class="close cursor" onclick="closeModal()">&times;</span>
+           
+          <div class="mySlides">
+            <img src="img/1.jpg" style="width:100%">
+          </div>
+
+          <div class="mySlides">
+            <img src="img/2.jpg" style="width:100%">
+          </div>
+
+          <div class="mySlides">
+            <img src="img/3.jpg" style="width:100%">
+          </div>
+
+          <div class="mySlides">
+            <img src="img/4.jpg" style="width:100%">
+          </div>
+
+          <div class="mySlides">
+            <img src="img/5.jpg" style="width:100%">
+          </div>
+
+          <div class="mySlides">
+            <img src="img/6.jpg" style="width:100%">
+          </div>
+
+          <div class="mySlides">
+            <img src="img/7.jpg" style="width:100%">
+          </div>
+
+          <div class="mySlides">
+            <img src="img/8.jpg" style="width:100%">
+          </div>
+
+          <div class="mySlides">
+            <img src="img/9.jpg" style="width:100%">
+          </div>
+
+          <div class="mySlides">
+            <img src="img/10.jpg" style="width:100%">
+          </div>
+          
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+  <script type="text/javascript" src="js/menu.js"></script>
+  <script type="text/javascript" src="js/tabs.js"></script>
+  <script type="text/javascript" src="js/show-elem.js"></script>
+  <script type="text/javascript" src="js/form.js"></script>
+  </body>
+</html>
